@@ -1,18 +1,30 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    font-size: 1em;
+}
+
 .header{
-    font-family: Calibri;
     font-size: larger;
 }
+
 .smallheader{
-    font-family: Calibri;
     font-size: medium;
 }
+
+a{
+    text-decoration: none;
+}
+
 button{
     border: 1px solid black;
     border-radius: 10px;
 }
 .black{
     color: black;
-    font-family: Calibri;
+    text-decoration: none;
 }
 .sup{
     font-size: medium;
@@ -26,15 +38,25 @@ button{
     border: 0;
     background-color: white;
 }
-*{
-    font-family: Calibri;
+
+.table{
+    text-align: center;
 }
-.table{text-align: center;
-}
+
 .blackbutton{
     border: 1px solid black;
     border-radius: 10px;
     color: white;
     background-color: black;
+}
+
+.nolist{
+    list-style: none;
+}
+
+.search{
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 12px;
 }
 
