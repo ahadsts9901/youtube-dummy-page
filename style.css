@@ -11,6 +11,7 @@ header{
     position: sticky;
     top: 0;
     z-index: 20;
+    width: 100%;
 }
 
 footer{
@@ -18,6 +19,7 @@ footer{
     position: fixed;
     bottom: 0;
     z-index: 20;
+    width: 100%;
 }
 
 .header{
@@ -72,5 +74,9 @@ button{
     height: 2em;
     border: 1px solid black;
     border-radius: 12px;
+}
+
+.white{
+    height: 2em;
 }
 
